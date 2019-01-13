@@ -41,3 +41,4 @@ Audio files are stored on dropbox with the link included in the library metadata
 - paging for library to support more songs
 - more sophisticated error handling (custom error handler, logging, etc)
 - additional layers/abstractions as site grows, config directory as opposed to single file, for instance
+- websockets to show what others are listening to (would probably do this when building the frontend)
