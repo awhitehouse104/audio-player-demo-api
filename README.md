@@ -45,3 +45,4 @@ Audio files are stored on dropbox with the link included in the library metadata
 - additional layers/abstractions as site grows, config directory as opposed to single file, for instance
 - websockets to show what others are listening to (would probably do this when building the frontend)
 - unit tests
+- use of environment variables to configure port, production mode, etc
