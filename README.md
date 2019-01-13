@@ -23,6 +23,8 @@ Start the API:
 yarn start
 ```
 
+Library available at `http://localhost:3000/api/library`
+
 Audio files are stored on dropbox with the link included in the library metadata.
 
 ### Project Structure
