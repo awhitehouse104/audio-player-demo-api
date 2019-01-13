@@ -1,0 +1,16 @@
+{
+  "name": "audio-player-demo",
+  "version": "1.0.0",
+  "description": "A simple audio player",
+  "main": "index.js",
+  "author": "Adam Whitehouse",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "json-server": "json-server --watch ./data/db.json --port 4000"
+  }
+}

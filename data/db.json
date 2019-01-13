@@ -1,0 +1,34 @@
+{
+  "library": [
+    {
+      "id": 1,
+      "name": "Concerto a' 4 Violini No 2",
+      "artist": "Georg Philipp Telemann",
+      "path": "https://dl.dropboxusercontent.com/s/q6xa1lfc7lu0tvj/concerto-a-4-violini-no-2-telemann.mp3"
+    },
+    {
+      "id": 2,
+      "name": "Double Violin Concerto 1st Movement",
+      "artist": "Johann Sebastian Bach",
+      "path": "https://dl.dropboxusercontent.com/s/qrv6i6n6b9rhtc0/double-violin-voncerto-1st-movement-js-bach.mp3"
+    },
+    {
+      "id": 3,
+      "name": "Largo",
+      "artist": "Johann Sebastian Bach",
+      "path": "https://dl.dropboxusercontent.com/s/9hyj6549kynnpbu/largo-js-bach-from-concerto-no.mp3"
+    },
+    {
+      "id": 4,
+      "name": "Rhapsody No. 2 in G Minor",
+      "artist": "Johannes Brahms",
+      "path": "https://dl.dropboxusercontent.com/s/azd9bjw0ppxnm3g/rhapsody-no-2-in-g-minor-brahms.mp3"
+    },
+    {
+      "id": 5,
+      "name": "Scherzo No1",
+      "artist": "Frédéric Chopin",
+      "path": "https://dl.dropboxusercontent.com/s/p0trh4hctravfg7/scherzo-no1-chopin.mp3"
+    }
+  ]
+}
