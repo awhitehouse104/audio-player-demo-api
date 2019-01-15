@@ -37,12 +37,9 @@ Audio files are stored on dropbox with the link included in the library metadata
 
 ### Potential Improvements
 
-- each module could contain a service to encapsulate operations for reuse
 - router could be more extensible to allow for root paths other than `/api`, api versioning for example: `/api/v1`, `/api/v2`
 - additional metadata for songs, like album or artists images
 - paging for library to support more songs
-- more sophisticated error handling (custom error handler, logging, etc)
 - additional layers/abstractions as site grows, config directory as opposed to single file, for instance
-- websockets to show what others are listening to (would probably do this when building the frontend)
 - unit tests
 - use of environment variables to configure port, production mode, etc
