@@ -1,15 +1,15 @@
-const fetch = require('node-fetch')
-const { jsonServerPath } = require('../../config')
+const libraryService = require('./service')
 
 class LibraryController {
-  async get(req, res) {
+  async get(req, res, next) {
+    const { q, shuffle } = req.query
+
     try {
-      const libResponse = await fetch(`${jsonServerPath}/library`)
-      const library = await libResponse.json()
+      let library = await libraryService.getLibrary(q, shuffle)
 
       return res.send(library)
     } catch (error) {
-      return res.status(500).send(error.message)
+      next(error)
     }
   }
 }
